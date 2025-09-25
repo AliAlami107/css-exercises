@@ -1,0 +1,12 @@
+/* This is an example of external css, this is due to it having it's own file
+   for where the rules are declared and then is linked with a link void element in index.html
+   head section.
+*/
+div {
+    background-color : red;
+    color : white;
+    font-size : 32px; 
+    text-align: center;
+    font-weight: bold;
+}
+
