@@ -10,6 +10,32 @@ img {
 .title {
   font-size: 36px;
   font-weight: 900;
+  display: flex;
+  justify-content: center;
+}
+
+.plants {
+  display: flex;
+  justify-content: center;
+  margin-top: 32px;
+  gap: 52px; 
+
+}
+
+.plants > div {
+  width: 200px;
+  width: 200px;
+  display: flex;
+  flex-direction: column; /* stack image above text */
+  align-items: center;    /* center both horizontally */
+  text-align: center;     /* center the text content */
+}
+
+
+.text {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 /* do not edit this footer */
